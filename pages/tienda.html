@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@3.3.1/css/all/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>GARDEN DESIGN</title>
+  </head>
+
+  <body>
+
+    <header>
+
+      <!--LOGO-->
+      <div class="logo-nav">
+        <img src="../media/logo.png" alt="Logo Garden Design" class="logo" />
+        <h1 class="animate__animated animate__backInLeft">GARDEN DESIGN</h1>
+      </div>
+
+      <!--MENU-->
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#quienes-somos">Quienes somos</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#reseñas">Reseñas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li>
+            <a href="#" id="boton-carrito" aria-label="Abrir carrito">
+              <i class="fas fa-shopping-cart"></i>
+              <span id="contador-carrito" class="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        
+    <section class="titulo">
+        <h2>Muebles de Exterior y Accesorios</h2>
+        <p>Renova con nuestros productos de la mejor calidad y garantía</p>
+    </section>
+
+    <!--VIDEO-->
+
+    <section class="video">
+      <video autoplay="" muted="" loop="">
+        <source src="../media/video.mp4" type="video/mp4">
+        "Tu navegador no soporta el elemento de video"
+      </video>
+
+    </section>
+
+      <section id="quienes-somos">
+        <h2>Quiénes Somos</h2>
+        <p>
+          Somos una empresa dedicada a ofrecer productos de calidad con atención
+          personalizada.
+        </p>
+
+        <img src="../media/foto0.jpg" alt="comercio">
+
+      </section>
+
+      <!--PRODUCTOS-->
+
+      <section id="productos">
+        <h2>Nuestros Productos</h2>
+
+        <div class="productos-container">
+
+      <!--------NO SE NECESITA AL USAR ARRAY----------------------------------------
+
+          <div class="card">
+           <img src="../media/foto1.jpg" alt="set living" />
+            <h3>Set Living</h3>
+            <p>Ratán 4 piezas</p>
+           <h4 class="precio">$1.700.000</h4>
+           <button class="agregar-carrito">Agregar al carrito</button>
+         </div>
+
+          <div class="card">
+            <img src="../media/foto2.jpg" alt="set living" />
+            <h3>Set Living</h3>
+            <p>Polipropileno 5 Piezas</p>
+            <h4 class="precio">$1.300.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card">
+            <img src="../media/foto3.jpg" alt="banco de jardín" />
+            <h3>Banco de Jardín</h3>
+            <p>Hierro y Madera 2 Cuerpos</p>
+            <h4 class="precio">$300.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card">
+            <img src="../media/foto4.jpg" alt="set comedor" />
+            <h3>Set Comedor</h3>
+            <p>Ratán 5 piezas Beige</p>
+            <h4 class="precio">$1.900.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+
+          </div>
+
+          <div class="card">
+            <img src="../media/foto5.jpg" alt="set living" />
+            <h3>Set Living</h3>
+            <p>Polipropileno 5 Piezas</p>
+            <h4 class="precio">$1.100.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card">
+            <img src="../media/foto6.jpg" alt="Reposera de Madera" />
+            <h3>Reposera</h3>
+            <p>Plegable con Lona</p>
+            <h4 class="precio">$90.000 </h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+         <div class="card">
+            <img src="../media/foto7.jpg" alt="sombrilla" />
+            <h3>Sombrilla</h3>
+            <p>Madera y Poliéster 3mts</p>
+            <h4 class="precio">$280.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card>
+            <img src="../media/foto8.jpg" alt="hamaca" />
+            <h3>Hamaca</h3>
+            <p>Polialgodón 200x100cm</p>
+            <h4 class="precio">$ 120.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card>
+            <img src="../media/foto9.jpg" alt="reposera rattan" />
+            <h3>Reposera Ratán</h3>
+            <p>Polipropileno Beige</p>
+            <h4 class="precio">$280.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+          <div class="card">
+            <img src="../media/foto10.jpg" alt="set comedor rústico" />
+            <h3>Set Comedor</h3>
+            <p>Madera Rústica 5 Piezas</p>
+            <h4 class="precio">$1.800.000</h4>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+
+------------------------------------------------------------------------------------>
+       </div>  
+      </section>
+
+      <!--RESEÑAS-->
+
+      <section id="reseñas">
+        <h2>Reseñas</h2>
+        <div class="grid-reseñas">
+          <div class="reseña">"Excelente calidad y atención." Ana</div>
+          <div class="reseña">"Muy recomendable, volveré pronto."  Luis</div>
+          <div class="reseña">"Precios accesibles y variedad."  Marta</div>
+          <div class="reseña">"Me encantó la experiencia."  Jorge</div>
+          <div class="reseña">"Muy buena calidad y atención."  Mariana</div>
+          <div class="reseña">"Precios accesibles, volveré."  Luisa</div>
+          <div class="reseña">"Muy buenos precios."  María</div>
+          <div class="reseña">"Me encantó, buena calidad."  Juan</div>
+          <div class="reseña">"Excelente calidad y atención."  Anabela</div>
+          <div class="reseña">"Muy recomendable, volveré pronto."  Leo</div>
+          <div class="reseña">"Precios accesibles y variedad."  Mayra</div>
+          <div class="reseña">"Me encantó la experiencia."  Jorgina</div>
+        </div>
+      </section>
+
+      <!--FORMULARIO CONTACTO-->
+
+        <section id="contacto"> 
+        <h2>Contactanos</h2>
+        <p class="parrafo">Gracias por ayudarnos a mejorar</p>
+        
+       <form action="https://formspree.io/f/mzzjbkbr" method="POST">
+
+        <div class="input-element">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+        </div>
+
+        <div class="input-element">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="input-element">
+        <label for="motivo">Motivo:</label> <br>
+        <select id="motivo" name="motivo">
+          <option value="">Seleccioná una opción</option>
+          <option value="consulta">Consulta</option>
+          <option value="soporte">Soporte</option>
+          <option value="otros">Otros</option>
+        </select>
+       </div><br>
+        
+        <div class="input-element">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+          
+      </form>
+
+         <!--BOTON VOLVER-->
+
+        <div>
+          <a class="volver" href="#top"><button>Volver al inicio</button></a>
+         </div>
+
+    </main>
+
+      <!-- Panel lateral del carrito -->
+   <aside id="panel-carrito" class="panel-carrito" aria-hidden="true">
+     <div class="encabezado-carrito">
+       <h3>Tu carrito</h3>
+       <button id="cerrar-carrito" class="cerrar-carrito" aria-label="Cerrar carrito">✕</button>
+     </div>
+    <div id="lista-carrito" class="lista-carrito">
+    <!-- Items del carrito se generan por JS -->
+    </div>
+    <div class="pie-carrito">
+     <div class="total-carrito">
+      <span>Total:</span>
+      <strong id="total-carrito">$0</strong>
+    </div>
+     <button id="vaciar-carrito" class="boton-vaciar">Vaciar carrito</button>
+    </div>
+  </aside>
+
+     <!-- Fondo oscuro para cerrar al hacer clic fuera -->
+    <div id="fondo-carrito" class="fondo-carrito" hidden></div>
+
+
+    <!--FOOTER-->
+    
+    <footer id="ubicacion">
+       
+     <section class="footer"> 
+
+      <!--LINKS-->
+      <div class="footer-links">
+        <nav>
+          <ul class="footer-ul">
+            <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Compañia</a></li>
+          <li><a href="#">Socios</a></li>
+          <li><a href="#">Proyectos</a></li>
+          </ul>
+        </nav>
+      </div>
+
+       <!--MAPA-->
+      <div class="footer-mapa">
+        <iframe style="filter: invert(90%);" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384625.3329470862!2d-71.49854625078183!3d-41.137027337282895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses!2sar!4v1758389576073!5m2!1ses!2sar" width="100%" height="300"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <div class="footer-redes">
+        <h3>Ubicación</h3>
+
+         <!--ICONOS DIRECCION-->
+        <div class="footer-direccion" >
+          <p><i class="fi fi-rs-marker"> Av. Ficticia 1234</i></p>
+          <p><i class="fi fi-rr-phone-call"> Tel: 011-1234-5678</i></p>
+          <p><i class="fi fi-rr-envelope"> garden@gmail.com</i></p>
+        </div>
+
+        <h3>Seguinos:</h3>
+
+        <!--ICONOS REDES-->
+        <div class="icono-social">
+
+         <a href="https://www.instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+
+          <a href="https://www.facebook.com" target="_blank">
+           <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+
+         <a href="https://www.tiktok.com" target="_blank">
+            <i class="fa-brands fa-tiktok fa-2x"></i>
+         </a>
+
+         <a href="https://www.whatsapp.com" target="_blank">
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+         </a>
+         </div>
+       
+      </div>
+       </section>
+        
+       <!--COPYRIGHT-->
+       <section class="footer-copy">
+
+        <div>
+         <p class="copyright">
+          &copy; 2025 Garden Design. Todos los derechos reservados
+        </p>
+       </div>
+
+       </section>
+
+    </footer>
+
+  
+<!-- JS del carrito -->
+<script src="../js/carrito.js"></script>
+<script src="../js/productos.js"></script>
+
+  </body>
+</html>

@@ -1,7 +1,7 @@
-# Proyecto Pre-Entrega HTML-CSS de Talento-Tech
+# Proyecto Pre-Entrega HTML-CSS-JS -  Talento Tech
 
 Este proyecto es una página web responsiva inspirada en una tienda ficticia llamada "Garden Design" esta desarrollada como parte del curso front end de talento tech.
-El objetivo es aprender html y css para luego complementar con javascript.
+El objetivo es aprender html, css y javascript.
 
 ## Características
 
